@@ -1,0 +1,101 @@
+html{
+  height: 100%;
+}
+
+@font-face {
+  font-family: "Sansation";
+  src: url(".//packages/Sansation-Bold.ttf") format("truetype");
+}
+
+body{
+  font-family: "Sansation";
+  text-align: center;
+  align-items: center;
+  background: linear-gradient(100deg,  rgb(111, 126, 196),rgb(212, 60, 200), rgb(241, 164, 62));
+  display: flex;
+  height: inherit;
+  width: inherit;
+  min-width:min-content;
+  justify-content: center;
+}
+
+.screen{
+  background-color: rgba(225, 225, 225, 0.5);
+  border-radius: 10px;
+  border: rgba(109, 109, 109, 0.4) solid;
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+
+.output{
+  text-align: left;
+  height: auto;
+  background-color: rgba(196, 196, 196, 0.5);
+  border-radius: 5px;
+  border: rgba(143, 142, 142, 0.2) solid;
+  padding: 10px;
+}
+
+.buttons{
+  padding: 5px;
+  text-align: center;
+  display:flex;
+}
+
+.first-row-button{
+  font-family: "Sansation";
+  font-size: medium;
+  text-align: center;
+  border-radius: 15px;
+  border-style:double;
+  border-color: rgba(167, 167, 167, 0.411);
+  background-color: rgba(255, 255, 255, 0.267);
+  padding: 5px;
+  margin: 1px;
+  width: 50px;
+  height: 45px;
+}
+
+.first-row-button:hover{
+  background-color:  rgba(182, 182, 182, 0.267);
+}
+
+.button{
+  font-family: "Sansation";
+  font-size: medium;
+  text-align: center;
+  border-radius: 15px;
+  border-color: rgba(70, 70, 70, 0.411);
+  background-color: rgba(139, 139, 139, 0.555);
+  padding: 5px;
+  margin: 1px;
+  width: 50px;
+  height: 45px;
+}
+
+.button:hover{
+  background-color:rgba(117, 117, 117, 0.555);
+}
+
+.button:last-child{
+  background-color: rgba(231, 87, 111, 0.555);
+  border-color: rgba(99, 54, 54, 0.411);
+  border-style: dashed;
+}
+
+.button:last-child:hover{
+  background-color: rgba(216, 47, 75, 0.555);
+}
+
+.button:active{
+  background-color:rgba(78, 78, 78, 0.432);
+}
+
+.first-row-button:active{
+  background-color:rgba(165, 165, 165, 0.432);
+}
+
+.button:last-child:active{
+  background-color:rgba(187, 0, 0, 0.63);
+}
